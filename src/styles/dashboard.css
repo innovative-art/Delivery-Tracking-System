@@ -1,0 +1,114 @@
+.dashboard-container{
+    display:flex;
+    background:#bac5f2;
+    min-height:100vh;
+}
+
+/* MAIN CONTENT */
+
+.dashboard-content{
+
+    margin-left:270px;
+
+    width:100%;
+
+    min-height:100vh;
+
+    padding:100px 40px 40px 40px;
+
+    color:white;
+
+    background:#afb8e1;
+}
+
+/* TOP TITLE */
+
+.dashboard-title{
+
+    margin:0;
+
+    font-size:38px;
+
+    color:#0b2629;
+
+    margin-bottom:10px;
+}
+
+/* CENTER WELCOME TEXT */
+
+.welcome-wrapper{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:-30px;
+}
+
+.welcome-text{
+
+    font-size:20px;
+
+    color:#10151c;
+
+    line-height:1.6;
+}
+
+/* DASHBOARD GRID */
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+    margin-top:30px;
+}
+
+/* DASHBOARD CARDS */
+
+.dashboard-card{
+
+    background:#92a4ca;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:1px solid #1e293b;
+
+    transition:0.3s;
+
+    cursor:pointer;
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#00e0ff;
+
+    box-shadow:
+    0 0 20px rgba(0,224,255,0.25);
+}
+
+.dashboard-card h2{
+
+    color:#00e0ff;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+}
+
+.dashboard-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+    font-size:15px;
+}

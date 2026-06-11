@@ -1,0 +1,21 @@
+.status-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.status-buttons button {
+  padding: 6px 10px;
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.status-buttons button:hover {
+  background: #00e0ff;
+  color: black;
+}
